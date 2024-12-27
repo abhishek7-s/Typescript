@@ -17,7 +17,7 @@ function Sum1(a:number , b:number){
 
 console.log(Sum(5,6))
 
-function isLegal(age:number){
+function isLegal(age:number):boolean{
     if (age>=18) {
         return true
     } else {
